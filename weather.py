@@ -38,7 +38,7 @@ root = tk.Tk()
 canvas = tk.Canvas(root,height=HEIGHT,width=WIDTH)
 canvas.pack()
 
-background_image = tk.PhotoImage(file='C:\\Users\\VAIBHAV_2\\Desktop\\hi.png')
+background_image = tk.PhotoImage(file='image\\hi.png')
 background_label = tk.Label(root,image=background_image)
 background_label.place(relwidth=1,relheight=1)
 
